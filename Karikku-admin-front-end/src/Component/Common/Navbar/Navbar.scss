@@ -1,0 +1,75 @@
+.navbarmainwrapper {
+    .navbar {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem 0 2rem;
+        border: 1px solid #EEEEEE;
+        background-color: #ffff;
+        padding-right: 4rem;
+
+
+        .left-side {
+            display: flex;
+            gap: 1rem;
+
+            // font-family: "inter";
+
+
+            .drop-1 {
+                select {
+                    padding: 5px 10px 5px 10px;
+                    border: 1px solid #D0D3D9;
+                    border-radius: 5px;
+                    color: #5D6679;
+
+
+                    option {
+                        font-family: "inter";
+
+
+                    }
+
+
+                }
+            }
+
+            .drop-2 {
+                select {
+                    padding: 5px 30px 5px 10px;
+                    border: 1px solid #D0D3D9;
+                    border-radius: 5px;
+                    color: #5D6679;
+
+
+                    option {
+                        font-family: "inter";
+
+
+                    }
+
+                }
+            }
+        }
+
+        .right-side {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            align-items: center;
+
+            .user {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+
+                img {
+                    width: 100%;
+
+                }
+            }
+        }
+    }
+
+}
