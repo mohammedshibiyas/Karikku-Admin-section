@@ -23,7 +23,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login />} />
-          <Route path='/Sidebar' element={<Sidebar />} />
+          <Route path='/Sidebar'  element={<Sidebar />} />
           <Route path='/Add-product' element={<AddnewProduct />} />
           <Route path='/Brand' element={<Brand  />} />
           <Route path='/Products' element={<Products/>} />
